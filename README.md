@@ -3,6 +3,25 @@
 # COPYRIGHT CLAIMS(C) : Vasilis Manthelas
 
 # INSTALLATION
-    1]Run setup.bat
-    2]Install Python
-    3]Run PC-STATS.pyc
+- Run setup.bat
+- Install Python
+- Run PC-STATS.pyc
+
+# OPTIONS
+    0] SHOW PC-STATS |
+                     | [NETWORK STATS] |
+                     |                 | [MS RATES (minimum,maximum,average)]
+                     |                 | [PACKETS (sent,recieved,lost)]
+                     |
+                     | [SOFTWARE] |
+                     |            | [BIOS (version)]
+                     |            | [WINNDOWS (version)]
+                     |
+                     | [HARDWARE] |
+                                  | [RAMS (channel,type,capacity)]
+                                  | [DISKS (name,FsType,Opts,Capacity)]
+                                  | [CPUS] |
+                                           | [MODEL]
+                                           | [COUNT (physical,logical)]
+                                           | [FREQUENCY (current,min,max)]
+                                           | [USAGE]
