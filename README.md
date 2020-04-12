@@ -25,3 +25,8 @@
                                            | [COUNT (physical,logical)]
                                            | [FREQUENCY (current,min,max)]
                                            | [USAGE]
+    1] SHOW COMPUTER CURRENT CONNETIONS |
+                                        | [(IP,HOST,ISP,ORG,STATUS,PROCESS)]
+    2] SHOW DNS TRAFFIC STREAM(better turn off IPv6 protocol) |
+                               | [REQUEST (source(dns),destination(localhost),url)]
+                               | [RESPONSE(source(dns),destination(localhost),url,ip)]
