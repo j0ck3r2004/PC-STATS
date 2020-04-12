@@ -34,9 +34,9 @@
 # REQUIRMENTS(libs)
 - requests
     ```sh 
-    python -m pip install requests
+    $ python -m pip install requests
     ```
 - psutil
     ```sh
-    python -m pip install ppsutil
+    $ python -m pip install ppsutil
     ```
