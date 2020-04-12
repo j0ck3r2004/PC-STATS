@@ -30,3 +30,13 @@
     2] SHOW DNS TRAFFIC STREAM(better turn off IPv6 protocol) |
                                | [REQUEST (source(dns),destination(localhost),url)]
                                | [RESPONSE(source(dns),destination(localhost),url,ip)]
+                        
+# REQUIRMENTS(libs)
+- requests
+    ```sh 
+    python -m pip install requests
+    ```
+- psutil
+    ```sh
+    python -m pip install ppsutil
+    ```
